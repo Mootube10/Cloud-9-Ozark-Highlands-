@@ -13,6 +13,10 @@ header h1{margin:0;font-size:22px;letter-spacing:1px}
 
 .menu-btn{font-size:26px;cursor:pointer}
 
+.logo{font-size:26px;font-weight:700;letter-spacing:1px}
+.cloud{background:#ffd400;color:#062a66;padding:6px 10px;border-radius:6px 0 0 6px}
+.nine{background:white;color:#062a66;padding:6px 10px;border-radius:0 6px 6px 0}
+
 #menu{position:fixed;top:0;left:-260px;width:260px;height:100%;background:#062a66;padding-top:60px;transition:0.3s;box-shadow:4px 0 10px rgba(0,0,0,0.4)}
 #menu a{display:block;color:white;text-decoration:none;padding:15px 25px;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.08)}
 #menu a:hover{background:#0b3d91}
@@ -39,7 +43,10 @@ footer{text-align:center;padding:20px;margin-top:40px;background:#062a66}
 
 <header>
 <span class="menu-btn" onclick="toggleMenu()">≣</span>
-<h1>Cloud 9 Superstore</h1>
+<div class="logo">
+<span class="cloud">Cloud</span>
+<span class="nine">9</span>
+</div>
 </header>
 
 <div id="menu">
@@ -52,6 +59,7 @@ footer{text-align:center;padding:20px;margin-top:40px;background:#062a66}
 
 <section id="home" class="page active">
 <div class="hero">
+<div style="background:#ffd400;color:#062a66;padding:12px 20px;border-radius:10px;display:inline-block;font-weight:700;margin-bottom:20px">Ozark Highlands Superstore</div>
 <h2>Welcome to Cloud 9</h2>
 <p>Work, roleplay, and explore the Ozark Highlands Superstore experience on Roblox.</p>
 <a class="btn" href="https://www.roblox.com/games/17721713498/Cloud-9-Superstore" target="_blank">Play Now</a>
